@@ -1,0 +1,14 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="clasesap.invoices.controller.prueba1" displayBlock="true">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content>
+					    <Text xmlns="sap.m" text="Hola Mundo" id="text2"/><Button xmlns="sap.m" text="prueba" id="button0"/>
+					    <Link xmlns="sap.m" href="https://www.youtube.com" text="Link" id="link0"/>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
